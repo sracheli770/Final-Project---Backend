@@ -1,0 +1,113 @@
+### GET
+GET http://localhost:3001/home
+
+### GET
+GET http://localhost:3001/api/login
+
+### GET
+GET http://localhost:3001/api/books/fantasy
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY0NTEzOWEyMTZmMGNmMWQ4NWMzOGI5MiIsImlhdCI6MTY4MzA0ODg1NiwiZXhwIjoxNjg1NjQwODU2fQ.uT-r6CsEblwmcoSMmKGwbyxJ6QAm8l7fTcRMg9GiYcY
+
+###GET
+GET http://localhost:3001/api/cards
+
+###POST
+POST http://localhost:3001/api/cards
+Content-Type: application/json
+
+{
+    "name":"pizza",
+    "description": "pasty and tasty",
+    "address": "tlv",
+    "phone": "9606666",
+    "image": "https://www.foodandwine.com/thmb/4qg95tjf0mgdHqez5OLLYc0PNT4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/classic-cheese-pizza-FT-RECIPE0422-31a2c938fc2546c9a07b7011658cfd05.jpg",
+    "bsId": "pz123"
+    }
+
+
+###POST
+POST http://localhost:3001/api/cards
+Content-Type: application/json
+
+{
+    "name":"shoes",
+    "description": "the best shoes",
+    "address": "jlm",
+    "phone": "025874658",
+    "image": "https://m.media-amazon.com/images/I/71hf+hM-xpL._AC_UY695_.jpg",
+    "bsId": "sz456"
+    }
+
+
+###POST
+POST http://localhost:3001/api/cards
+Content-Type: application/json
+
+{
+    "name":"sw",
+    "description": "xct",
+    "address": "jx",
+    "phone": "058-8574638",
+    "image": "https://www.thespruceeats.com/thmb/pRkqG_XtQYYc2HnNQSof8InwnRE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-90053856-588b7aff5f9b5874ee534b04.jpg",
+    "bsId": "sz6"
+    }
+
+
+###POST
+POST http://localhost:3001/users/signup
+Content-Type: application/json
+
+{
+    "userName":"racheli.s",
+    "email": "racheli@gmail.com",
+    "password": "Rach1234!"
+    }
+
+###POST
+POST http://localhost:3001/users/signup
+Content-Type: application/json
+
+{
+    "userName":"ber",
+    "email": "ber@gmail.com",
+    "password": "Bersa1304!"
+    }
+
+###POST
+POST http://localhost:3001/users/signin
+Content-Type: application/json
+
+{
+    "email": "racheli@gmail.com",
+    "password": "Rach1234!"
+    }
+
+
+###POST
+POST http://localhost:3001/users/signin
+Content-Type: application/json
+
+{
+    "email": "ber@gmail.com",
+    "password": "Bersa1304!"
+    }
+
+
+
+### GET
+GET http://localhost:3001/123
+
+
+###GET
+GET http://localhost:3001/api/nigguns
+
+###POST
+POST http://localhost:3001/api/nigguns
+Content-Type: application/json
+
+{
+    "name":"keli ata",
+    "easyMovie":"123.mp4",
+    "advancedMovie":"456.mp4",
+    "notes":""
+}
